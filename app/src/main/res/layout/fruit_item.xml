@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_margin="20dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/fruit_img"
+        android:layout_width="50dp"
+        android:src="@drawable/banana"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/fruit_name"
+        android:layout_width="wrap_content"
+        android:text="name"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="100dp" />
+</LinearLayout>
